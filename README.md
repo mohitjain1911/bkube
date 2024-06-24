@@ -8,7 +8,6 @@ This repository contains a project aimed at recognizing different species of fis
 - [Model](#model)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
