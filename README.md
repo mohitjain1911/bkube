@@ -16,6 +16,22 @@ This project involves setting up and managing a Kubernetes cluster using Minikub
    - Implemented auto-healing and auto-scaling for the Kubernetes cluster.
    - Managed network and services with host IP allocation.
 
+## Setup Guide
+1. **Install Prerequisites**
+   - Minikube
+   - Docker
+   - kubectl
+     
+2. **Start Minikube**
+```bash
+   minikube start
+```bash
+
+3. **Build and Deploy Docker Containers**
+
+Build Docker images for your Django and React applications.
+Create Kubernetes pods and services using kubectl apply -f <file-name>.yaml.
+
 ## Achievements
 - Successfully reduced downtime in the production environment.
 
