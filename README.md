@@ -14,7 +14,7 @@ This repository contains a project aimed at recognizing different species of fis
 Fish Recognition is a deep learning project designed to identify various species of fish from images. This can be useful for fisheries management, conservation efforts, and automating monitoring processes.
 
 ## Dataset
-The project uses the [Nature Conservancy Fisheries Monitoring dataset](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring) from Kaggle. This dataset contains thousands of labeled images of different fish species, which are used to train and evaluate the model.
+The project uses the [Nature Conservancy Fisheries Monitoring dataset](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring/data) from Kaggle. This dataset contains thousands of labeled images of different fish species, which are used to train and evaluate the model.
 
 ## Model
 The project employs a Convolutional Neural Network (CNN) implemented in Python using popular deep learning libraries such as TensorFlow and Keras. The model architecture and training process are detailed in the `FishRecognition.ipynb` notebook.
