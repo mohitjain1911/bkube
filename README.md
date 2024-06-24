@@ -3,10 +3,6 @@
 ## Overview
 This project involves setting up and managing a Kubernetes cluster using Minikube. Docker containers for Django and React applications are deployed into Kubernetes pods, with a focus on achieving deployment replication, auto-healing, and auto-scaling.
 
-## Project Details
-- **Project Title:** Kubernetes Application Deployment
-- **Made By:** Bhushan Sawant
-
 ## Achievements
 - Successfully reduced downtime in the production environment.
 
