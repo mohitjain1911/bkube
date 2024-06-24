@@ -1,63 +1,50 @@
-# Kubernetes Application Project
+# Fish Recognition
 
-## Overview
-This project involves setting up and managing a Kubernetes cluster using Minikube. Docker containers for Django and React applications are deployed into Kubernetes pods, with a focus on achieving deployment replication, auto-healing, and auto-scaling.
+This repository contains a project aimed at recognizing different species of fish using deep learning techniques.
 
-## Key Components
-1. **Kubernetes Cluster Setup**
-   - Built using Minikube.
+## Table of Contents
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Model](#model)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
-2. **Docker Container Management**
-   - Managed Docker containers for Django and React applications.
-   - Deployed containers into Kubernetes pods.
+## Introduction
+Fish Recognition is a deep learning project designed to identify various species of fish from images. This can be useful for fisheries management, conservation efforts, and automating monitoring processes.
 
-3. **Kubernetes Management**
-   - Managed deployment replication.
-   - Implemented auto-healing and auto-scaling for the Kubernetes cluster.
-   - Managed network and services with host IP allocation.
+## Dataset
+The project uses the [Nature Conservancy Fisheries Monitoring dataset](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring) from Kaggle. This dataset contains thousands of labeled images of different fish species, which are used to train and evaluate the model.
 
-## Setup Guide
-1. **Install Prerequisites**
-   - Minikube
-   - Docker
-   - kubectl
-     
-2. **Start Minikube**
-   ```bash
-    minikube start
-    ```
-
-3. **Build and Deploy Docker Containers**
-   - Build Docker images for your Django and React applications.
-   - Create Kubernetes pods and services using ` kubectl apply -f <file-name>.yaml `
-
-4. **Scale and Manage Deployments**
-    - Use `kubectl` commands to scale deployments and manage pods.
+## Model
+The project employs a Convolutional Neural Network (CNN) implemented in Python using popular deep learning libraries such as TensorFlow and Keras. The model architecture and training process are detailed in the `cnn.ipynb` and `FishRecognition.ipynb` notebooks.
 
 ## Usage
-1. **Start Minikube**
-   ```bash
-   minikube start
-   ```
-   
-2. **Deploy Applications**
-   - Apply the pod, deployment, and service configurations using kubectl.
+To run the project, follow these steps:
 
-3. **Scale Deployment**
-   ```bash
-   kubectl scale deployment <deployment-name> --replicas=<number-of-replicas>
-   ```
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/bshan11/Fish-Recognition.git
+    cd Fish-Recognition
+    ```
 
-5. **Monitor Pods**
-   ```bash
-    kubectl get pods
-   ```
+2. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-## Achievements
-- Successfully reduced downtime in the production environment.
+3. Download the dataset from Kaggle and place it in the appropriate directory.
 
-## Presentation
-For a detailed presentation of the project, please refer to the uploaded project presentation (PPT).
+4. Run the Jupyter notebooks to train and evaluate the model:
+    - `FishRecognition.ipynb`
+    - `cnn.ipynb`
 
-## Conclusion
-This project demonstrates the efficient setup and management of a Kubernetes cluster for deploying Django and React applications, ensuring minimal downtime and robust scaling capabilities.
+## Results
+The results of the model, including accuracy and loss metrics, are documented in the Jupyter notebooks. Example predictions and visualizations are also provided.
+
+## Contributing
+Contributions are welcome! Please create an issue to discuss any changes or additions before submitting a pull request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
