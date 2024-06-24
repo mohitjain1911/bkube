@@ -13,7 +13,7 @@ This repository contains a machine learning project aimed at predicting customer
 ## Project Structure
 
 - `Churn_EDA.ipynb`: This notebook contains the exploratory data analysis, where we explore the dataset, visualize important features, and gain insights into customer behavior.
-- `Churn_Model.ipynb`: This notebook covers the machine learning part of the project. It includes data preprocessing, model selection, training, evaluation, and tuning.
+- `Churn_Model.ipynb`: This notebook covers the machine learning model building part of the project. It includes data preprocessing, model selection, training, evaluation, and tuning.
 
 ## Dataset
 
