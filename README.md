@@ -44,10 +44,14 @@ This project involves setting up and managing a Kubernetes cluster using Minikub
    - Apply the pod, deployment, and service configurations using kubectl.
 
 3. **Scale Deployment**
-   ` kubectl scale deployment <deployment-name> --replicas=<number-of-replicas> `
+   ```bash
+   kubectl scale deployment <deployment-name> --replicas=<number-of-replicas>
+   ```
 
-4. **Monitor Pods**
-   ` kubectl get pods `
+5. **Monitor Pods**
+   ```bash
+    kubectl get pods
+   ```
 
 ## Achievements
 - Successfully reduced downtime in the production environment.
