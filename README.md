@@ -34,7 +34,7 @@ To run the project, follow these steps:
 
 4. Run the Jupyter notebooks to train and evaluate the model:
     - `FishRecognition.ipynb`
-
+   
 ## Results
 The results of the model, including accuracy and loss metrics, are documented in the Jupyter notebooks. Example predictions and visualizations are also provided.
 
