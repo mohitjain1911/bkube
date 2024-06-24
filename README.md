@@ -31,6 +31,24 @@ This project involves setting up and managing a Kubernetes cluster using Minikub
    - Build Docker images for your Django and React applications.
    - Create Kubernetes pods and services using ` kubectl apply -f <file-name>.yaml `
 
+4. **Scale and Manage Deployments**
+    - Use `kubectl` commands to scale deployments and manage pods.
+
+## Usage
+1. **Start Minikube**
+   ```bash
+   minikube start
+   ```
+   
+2. **Deploy Applications**
+   - Apply the pod, deployment, and service configurations using kubectl.
+
+3. **Scale Deployment**
+   ` kubectl scale deployment <deployment-name> --replicas=<number-of-replicas> `
+
+4. **Monitor Pods**
+   ` kubectl get pods `
+
 ## Achievements
 - Successfully reduced downtime in the production environment.
 
