@@ -3,9 +3,6 @@
 ## Overview
 This project involves setting up and managing a Kubernetes cluster using Minikube. Docker containers for Django and React applications are deployed into Kubernetes pods, with a focus on achieving deployment replication, auto-healing, and auto-scaling.
 
-## Achievements
-- Successfully reduced downtime in the production environment.
-
 ## Key Components
 1. **Kubernetes Cluster Setup**
    - Built using Minikube.
@@ -18,7 +15,10 @@ This project involves setting up and managing a Kubernetes cluster using Minikub
    - Managed deployment replication.
    - Implemented auto-healing and auto-scaling for the Kubernetes cluster.
    - Managed network and services with host IP allocation.
-     
+
+## Achievements
+- Successfully reduced downtime in the production environment.
+
 ## Presentation
 For a detailed presentation of the project, please refer to the uploaded project presentation (PPT).
 
