@@ -24,8 +24,8 @@ This project involves setting up and managing a Kubernetes cluster using Minikub
      
 2. **Start Minikube**
 ```bash
-   minikube start
-```bash
+minikube start
+```
 
 3. **Build and Deploy Docker Containers**
 
